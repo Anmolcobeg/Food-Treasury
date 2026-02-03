@@ -40,7 +40,7 @@ if (form) {
       if (ok) {
         window.location.href = "Thank.html";
       } else {
-        console.warn("Fetch returned non-ok; falling back. Response:", text);
+        console.warn("Fetch https://anmolcobeg.github.io/Food-Treasury/index.html", text);
         fallbackFormSubmit();
       }
     })
@@ -67,4 +67,5 @@ if (form) {
       }
     }
   });
+
 }
