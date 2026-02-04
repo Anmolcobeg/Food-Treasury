@@ -55,7 +55,7 @@ if (form) {
       // performs a normal POST (no CORS preflight). The Apps Script should
       // then return an HTML response that redirects back to your Thank page.
       try {
-        form.action = Thank.html;
+        form.action = FEEDBACK_ENDPOINT;
         form.method = "POST";
         // remove any target so navigation happens in top window
         form.removeAttribute('target');
@@ -70,6 +70,7 @@ if (form) {
 
 }
 return HtmlService.createHtmlOutput("<script>window.location.href='Thank.html';</script>");
+
 
 
 
