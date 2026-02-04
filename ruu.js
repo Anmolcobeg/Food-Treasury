@@ -13,7 +13,7 @@ if (locBtn) {
   });
 }
 // Handle feedback form submission and send to Google Apps Script
-const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbzxP40smHyfq_HFv0_Bs13R_VBIeyNpB_PwHl2bf4qI3BMadTlBrPBNUf4Pje6NBeKEVw/exec";
+const FEEDBACK_ENDPOINT = "Thank.html";
 
 const form = document.getElementById("feedbackForm");
 if (form) {
@@ -69,3 +69,4 @@ if (form) {
   });
 
 }
+
