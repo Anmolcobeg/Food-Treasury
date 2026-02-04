@@ -12,7 +12,7 @@ if (locBtn) {
     window.location.href = "location.html";
   });
 }
-fetch("https://script.google.com/macros/s/AKfycbxRORI11zKX6sdzm3xWqVGjLxFhmlbYhccw7H6SoPSuOYURBBFtphTDuiKu2PrUCBs/exec", {
+fetch("https://script.google.com/macros/s/AKfycbwGU4sPOTn-wKvlQQ7FNgMGiKocY_DAOUhyNq067coyRcjCwr8Ni-8fL2IdzAB1BCVuEQ/exec", {
   method: "POST",
   body: JSON.stringify({
     name: "Test User",
@@ -22,6 +22,7 @@ fetch("https://script.google.com/macros/s/AKfycbxRORI11zKX6sdzm3xWqVGjLxFhmlbYhc
 })
 .then(r => r.text())
 .then(console.log)
+
 
 
 
