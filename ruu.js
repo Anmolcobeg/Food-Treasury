@@ -12,3 +12,10 @@ if (locBtn) {
     window.location.href = "location.html";
   });
 }
+const locBtn = document.getElementById("locBtn");
+if (locBtn) {
+  locBtn.addEventListener("click", function() {
+    window.location.href = "location.html";
+  });
+}
+
