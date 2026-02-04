@@ -12,18 +12,17 @@ if (locBtn) {
     window.location.href = "location.html";
   });
 }
-fetch("https://script.google.com/macros/s/AKfycbyPLBb2B1b0_293wYrdoronYZ1jTrCbzcJZUsTdEcVwkMyklx5dm_11Y0YNeKZ0xeZfaQ/exec", {
+fetch("https://script.google.com/macros/s/AKfycbw0cUClz2_IMBTW0p7c4VT7Bs5mbvZkBEz20xV7tkbiJi86JAUCDddD5LOXvbP1XkZHzA/exec", {
   method: "POST",
   body: JSON.stringify({
-    name: name,
-    feedback: feedback
+    name: "Test User",
+    feedback: "Testing feedback"
   }),
-  headers: {
-    "Content-Type": "application/json"
-  }
+  headers: { "Content-Type": "application/json" }
 })
-.then(() => alert("Feedback submitted!"))
-.catch(() => alert("Error"));
+.then(r => r.text())
+.then(console.log)
+
 
 
 
