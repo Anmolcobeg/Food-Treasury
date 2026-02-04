@@ -8,15 +8,15 @@
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #66656d;">
     <h1 style="color: white;">We Value Your Feedback!</h1>
-    <form id="feedbackForm" style="margin: 0 auto; max-width: 500px;">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+<form
+  action="https://script.google.com/macros/s/AKfycbzTvUfQHn_uHctpzStTd41HqUdxyFkW6cNRuMu5h_aHqH6j6Sk0rPXle2MQ6HtJB3lXoQ/exec"
+  method="POST"
+>
+  <input type="text" name="name" placeholder="Your name" required>
 
-    <label for="comments">Comments:</label><br>
-    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
-
-        <button type="submit" id="submitBtn">Submit Feedback</button>
-    </form>
+  <textarea name="feedback" placeholder="Your feedback" required></textarea>
+  <button type="submit">Submit</button>
+</form>
 
 
 
@@ -25,4 +25,5 @@
        
     <script src="ruu.js"></script>
 </body>
+
 </html>
