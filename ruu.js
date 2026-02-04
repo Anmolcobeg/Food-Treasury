@@ -69,7 +69,7 @@ if (form) {
   });
 
 }
-return HtmlService.createHtmlOutput("<script>window.location.href='Thank.html';</script>");
+
 
 
 
